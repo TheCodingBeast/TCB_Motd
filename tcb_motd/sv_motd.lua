@@ -35,7 +35,7 @@ local function OpenMotdOnCommand( ply, command, team )
 
 	for k,v in pairs(OpenCommands) do
 		if command == v then
-			OpenMotdOnConsoleCommand()
+			OpenMotdOnConsoleCommand( ply )
 		end
 	end
 
