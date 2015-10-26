@@ -6,8 +6,6 @@
 	
 ---------------------------------------------------------------------------*/
 
-include( 'sh_config.lua' );
-
 -- Player Spawn
 local function OpenMotdOnJoin( ply )
 
