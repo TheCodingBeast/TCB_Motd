@@ -6,8 +6,6 @@
 	
 ---------------------------------------------------------------------------*/
 
-include( 'sh_config.lua' );
-
 local function MotdFrame()
 
 	local Frame = vgui.Create( "DFrame" )
